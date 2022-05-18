@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* Обнулення */
+@import url(https://fonts.googleapis.com/css?family=Commissioner:100,200,300,regular,500,600,700,800,900);
 *,
 *::before,
 *::after {
@@ -33,7 +34,7 @@ html, body {
 }
 
 body {
-  font-family: Commissioner;
+  font-family: 'Commissioner';
   font-size: 24px;
   color: #000;
   background: #E5E5E5;
@@ -169,5 +170,64 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #000;
+}
+
+.kemenger {
+  padding: 100px 0px 65px 0px;
+}
+
+.kemenger__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 880px;
+}
+
+.kemenger__content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 60%;
+          flex: 0 1 60%;
+}
+
+.kemenger__media {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%;
+}
+
+.kemenger__block-text {
+  max-width: 665px;
+}
+
+.block-text__title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.block-text__title span {
+  color: #018FA3;
+}
+
+.block-text__text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.media-kemenger__image {
+  display: inline-block;
+  position: relative;
+}
+
+.media-kemenger__image img {
+  position: relative;
+  height: 880px;
+  left: 0px;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
