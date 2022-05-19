@@ -1,9 +1,8 @@
 .kemenger {
-    padding: 0px 0px 65px 0px;
-    // max-width: 1230px;
+    padding: 100px 0px 65px 0px;
 
     &__container {
-        position: relative;
+        // position: relative;
         display: flex;
         align-items: center;
         // height: 880px;
@@ -11,13 +10,13 @@
     }
 
     &__content {
-        // flex: 0 1 665px;
-        flex: 0 1 40%;
+        flex: 0 1 666px;
+        padding: 156px 0px 0px 0px;
     }
 
     &__media {
-        flex: 0 1 60%;
-        // position: absolute;
+        flex: 0 1 565px;
+        width: 565px;
     }
 
     &__block-text {
@@ -63,76 +62,77 @@
 .button {
     display: inline-block;
     font-weight: 500;
-    color: #000000;
+    color: #000;
     transition: background-color 0.3s ease 0s;
 }
 
 .media-kemenger {
-    // position: relative;
-    // width: 100%;
+    position: relative;
+    width: 565px;
 
     &__image{
-
-        position: relative;
-        width: 100%;
-
+        display: inline-block;
         img {
             // position: absolute;
-            width: 100%;
+            // width: 100%;
             display: block;
         }
 
         &_1{
-            // position: absolute;
+            position: absolute;
             top: 0;
             right: 0;
-            // width: 100%;
-            z-index: -1;
+            // height: 834px;
+            // z-index: -1;
         }
         &_2{
-            // position: absolute;
+            position: absolute;
             top: 0;
             right: 0;
-            z-index: -2;
-            // width: 100%;
+            // z-index: -2;
+            // height: 834px;
         }
         &_3{
-            // position: absolute;
-            top: 0;
-            right: 0;
+            position: relative;
+            
+            // top: -750px;
+            right: -50px;
             z-index: 0;
-            // width: 100%;
+            img{
+                height: 726px;
+                width: 460px;
+            }
         }
         &_4{
-            // position: absolute;
+            position: absolute;
             top: 0;
             right: 0;
             z-index: 0;
             // width: 100%;
         }
         &_5{
-            // position: absolute;
+            position: absolute;
             top: 0;
             right: 0;
             z-index: 0;
             // width: 100%;
         }
         &_6{
-            // position: absolute;
+            position: absolute;
             top: 0;
             right: 0;
             z-index: 0;
             // width: 100%;
         }
         &_7{
-            // position: absolute;
+            position: absolute;
             top: 0;
             right: 0;
             z-index: 0;
             // width: 100%;
         }
         &_8{
-            // position: absolute;
+            position: absolute;
             top: 0;
             right: 0;
             z-index: 0;
