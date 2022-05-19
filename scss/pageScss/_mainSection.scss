@@ -1,17 +1,18 @@
 .kemenger {
     padding: 0px 0px 65px 0px;
-    max-width: 1230px;
+    // max-width: 1230px;
 
     &__container {
         position: relative;
         display: flex;
         align-items: center;
-        height: 880px;
+        // height: 880px;
         margin: 0px auto;
     }
 
     &__content {
-        flex: 0 1 665px;
+        // flex: 0 1 665px;
+        flex: 0 1 40%;
     }
 
     &__media {
